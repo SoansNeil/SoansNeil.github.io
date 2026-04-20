@@ -1,0 +1,119 @@
+.portfolio-section {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.intro h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro p {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.7;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 2px solid #e1e4e8;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+.project-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 1.1rem 1.3rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.project-card:hover {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.project-card h4 a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.project-card h4 a:hover {
+  text-decoration: underline;
+}
+
+.project-card ul {
+  margin: 0;
+  padding-left: 1.3rem;
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.project-card p {
+  margin: 0;
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.links-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #0366d6;
+  border-radius: 6px;
+  color: #0366d6;
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: 500;
+  transition: background 0.15s, color 0.15s;
+}
+
+.link-btn:hover {
+  background: #0366d6;
+  color: #fff;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  margin-bottom: 0.5rem;
+  font-size: 0.97rem;
+}
+
+.contact-list a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
